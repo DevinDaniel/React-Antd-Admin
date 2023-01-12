@@ -4,6 +4,7 @@
   "author": "1041379793@qq.com",
   "license": "MIT",
   "private": true,
+  "homepage": "https://devindaniel.github.io/React-Antd-Admin/",
   "dependencies": {
     "@babel/core": "^7.16.0",
     "@pmmmwh/react-refresh-webpack-plugin": "^0.5.3",
@@ -99,7 +100,8 @@
     "start": "react-app-rewired start",
     "build": "react-app-rewired build",
     "test": "react-app-rewired test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "deploy" : "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
@@ -170,5 +172,8 @@
   },
   "babel": {
     "presets": []
+  },
+  "devDependencies": {
+    "gh-pages": "^4.0.0"
   }
 }

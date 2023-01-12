@@ -1,70 +1,33 @@
-# Getting Started with Create React App
+# react-antd-admin是一个基于react18+Ant Design5.x的后台管理系统
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## 项目简述：
 
-## Available Scripts
+- 本项目完全基于函数式组件+Hook编写;若想了解redux如何在类组件中调用，侧边栏menu菜单以类组件编写。
+- store方面采用的是redux+react-redux+redux-thunk+@reduxjs/toolkit组合，优化模板代码，包含store异步调用api的RTK写法。
+- echarts图标，表格表单，富文本编辑器，markdown，Excel，Zip等常用功能
+- 路由采用的是react-router-dom@5.x版本，涉及路由权限验证，二级子路由，路由懒加载等功能
+- 采用react-transition-group实现路由动画功能
+- 采用vanta实现登录页面3D酷炫效果
 
-In the project directory, you can run:
+- 本项目参考[react-antd-admin-template](https://github.com/NLRX-WJC/react-antd-admin-template),若同学工作技术栈为react16+类组件+常规react-redux模板写法可以访问该项目。(请注意antd版本写法有区别)
 
-### `npm start`
+## 安装
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+```
+# 克隆项目
+git clone https://github.com/DevinDaniel/React-Antd-Admin
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+# 进入项目目录
+cd React-Antd-Admin
 
-### `npm test`
+# 安装依赖
+npm install
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+# 切换淘宝源，解决 npm 下载速度慢的问题
+npm install --registry=https://registry.npm.taobao.org
 
-### `npm run build`
+# 启动服务
+npm start
+```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+启动完成后会自动打开浏览器访问 [http://localhost:3000](http://localhost:3000/)
