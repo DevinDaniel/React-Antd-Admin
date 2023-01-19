@@ -11,6 +11,9 @@
 
 - 本项目参考[react-antd-admin-template](https://github.com/NLRX-WJC/react-antd-admin-template),若同学工作技术栈为react16+类组件+常规react-redux模板写法可以访问该项目。(请注意antd版本写法有区别)
 
+## 项目浏览地址：
+http://devinpush.gitee.io/react-antd-admin
+
 ## 安装
 
 ```
