@@ -4,7 +4,6 @@
   "author": "1041379793@qq.com",
   "license": "MIT",
   "private": true,
-  "homepage": "https://devindaniel.github.io/React-Antd-Admin/",
   "dependencies": {
     "@babel/core": "^7.16.0",
     "@pmmmwh/react-refresh-webpack-plugin": "^0.5.3",
